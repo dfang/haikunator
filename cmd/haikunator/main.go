@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	haikunator "github.com/dfang/haikunatorgo/v2"
+	haikunator "github.com/dfang/haikunator/v2"
 )
 
 func main() {
