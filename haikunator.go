@@ -1,4 +1,7 @@
 // Package haikunator generates Heroku-like random names to use in your go applications
+// Examples:
+//   haikunator := haikunator.New()
+// 	 haikunator.Haikunate()
 package haikunator
 
 import (
