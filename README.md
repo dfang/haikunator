@@ -7,10 +7,12 @@
 
 Generate Heroku-like random names to use in your go applications.
 
-## Installation
+this is FORKED from https://github.com/atrox/haikunatorgo
+
+## Install haikunator Command
 
 ```
-go get github.com/atrox/haikunatorgo/v2
+go get github.com/dfang/haikunator/cmd/haikunator
 ```
 
 ## Usage
@@ -21,7 +23,7 @@ Haikunator is pretty simple.
 package main
 
 import (
-  haikunator "github.com/atrox/haikunatorgo/v2"
+  haikunator "github.com/dfang/haikunator/v2"
 )
 
 func main() {
