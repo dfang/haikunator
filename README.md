@@ -1,21 +1,21 @@
-# HaikunatorGO
+# Haikunator
 
-[![Build Status](https://img.shields.io/travis/Atrox/haikunatorgo.svg?style=flat-square)](https://travis-ci.org/Atrox/haikunatorgo)
-[![Coverage Status](https://img.shields.io/coveralls/Atrox/haikunatorgo.svg?style=flat-square)](https://coveralls.io/r/Atrox/haikunatorgo)
-[![Go Report Card](https://goreportcard.com/badge/github.com/atrox/haikunatorgo?style=flat-square)](https://goreportcard.com/report/github.com/atrox/haikunatorgo)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-5272B4.svg?style=flat-square)](https://godoc.org/github.com/Atrox/haikunatorgo)
+[![Build Status](https://img.shields.io/travis/dfang/haikunator.svg?style=flat-square)](https://travis-ci.org/dfang/haikunator?branch=master)
+[![Coverage Status](https://img.shields.io/coveralls/dfang/haikunator.svg?style=flat-square)](https://coveralls.io/r/dfang/haikunator)
+[![Go Report Card](https://goreportcard.com/badge/github.com/dfang/haikunator?style=flat-square)](https://goreportcard.com/report/github.com/dfang/haikunator)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-5272B4.svg?style=flat-square)](https://pkg.go.dev/github.com/dfang/haikunator)
 
 Generate Heroku-like random names to use in your go applications.
 
-this is FORKED from https://github.com/atrox/haikunatorgo
+this is FORKED from [atrox](https://github.com/atrox/haikunatorgo) and add words from this [fork](https://github.com/TykTechnologies/go-haikunator)
 
 ## Install haikunator Command
 
 ```
-go get github.com/dfang/haikunator/cmd/haikunator
+go install github.com/dfang/haikunator/cmd/haikunator
 ```
 
-## Usage
+## Usage in go code
 
 Haikunator is pretty simple.
 
